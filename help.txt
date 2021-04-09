@@ -1,4 +1,5 @@
--Use up, down, left, right to move
--Type commands to act them out
--Use "look" to inspect something
+-Use travel to go from one area to another
+-Use north, south, east, and west to move to said area
+-Type one word commands to act them out
+-Use "examine" to inspect the area
 *Have Fun!
