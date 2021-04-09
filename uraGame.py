@@ -232,7 +232,7 @@ zoneMap = {
     },
     'Tet(Home)': {
         NAME : 'Tet(Home)',
-        DESCRIPTION : 'Forest\n\nYour Homestead is located atop the tress in the dense forest of Tet.\n\nAll is calm.\n\nThe Townspeople are especially nice in Tet.',
+        DESCRIPTION : 'Forest\n\nYour Homestead is located atop the trees in the dense forest of Tet.\n\nAll is calm.\n\nThe Townspeople are especially nice in Tet.',
         EXAMINATION : 'examine',
         INFO : 'Your Home',
         PUZZLE : 'puzzle',
@@ -435,6 +435,7 @@ def playerAttack():
 
 def playerExamine(action):
     if zoneMap[myPlayer.location][SOLVED] == True:
+        printLocation()
         pygame.mixer.Channel(0).play(pygame.mixer.Sound('examine.wav'))
         print('\n' + '==========================================')
         print('\n' + (zoneMap[myPlayer.location][INFO]))
