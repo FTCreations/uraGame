@@ -9,7 +9,7 @@ import time
 import random
 import pyinputplus as pyip
 import pygame
-import platform 
+import platform
 
 
 screenWidth = 100
