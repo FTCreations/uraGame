@@ -1,0 +1,4 @@
+-Use up, down, left, right to move
+-Type commands to act them out
+-Use "look" to inspect something
+*Have Fun!
